@@ -1,1 +1,0 @@
-[20-Apr-2017 17:54:17 America/Denver] PHP Fatal error:  Call to undefined function plugin_dir_path() in /home2/mocofoub/public_html/mdrising_dev/wp-content/plugins/our-revolution-events/cron/ore_miner.php on line 12
