@@ -1,0 +1,88 @@
+
+
+.ore-box {
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+    text-align: left;
+    background-color: #fff;
+    font-family: lato;
+}
+
+.ore-box h3 {
+    font-family: lato;
+    background-color: #3498db;
+    color: #fff;
+    display: block;
+    padding: 0.8em 1em;
+    margin: 0px;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 1.75em;
+    font-weight: 400;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.ore-box .date {
+    color: #7c8d9c;
+    font-size: 1.6em;
+    margin-left: 20px;
+    font-weight: 400;
+    margin-top: 0.5em;
+}
+
+.ore-box .location {
+    color: #7c8d9c;
+    font-size: 1.4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-weight: 400;
+}
+
+.ore-box .city {
+    font-size: 0.8em;
+    padding-left: 0.5em;
+}
+
+.ore-box .description {
+    font-size: 1.2em;
+    margin: 0.5em 1em 1em 1em;
+}
+
+.ore-box .ore-footer {
+    border-top: 1px solid #ddd;
+}
+
+.ore-box .ore-footer a {
+    display: inline-block;
+    border-radius: 0.5em;
+    background-color: #ee0000;
+    color: white;
+    padding: 0.7em;
+    margin: 0.5em 1em 0.5em 1em;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.ore-box .ore-footer a:hover {
+    background-color: #dd0000;
+}
+
+@media (min-width: 300px) {
+    
+    .ore-box {
+        width: 100%;
+    }
+}
+
+@media (min-width: 800px) {
+    
+    .ore-box {
+        width: 80%;
+    }
+}
+
+.events-page {
+    background-color: #ccc;
+}
